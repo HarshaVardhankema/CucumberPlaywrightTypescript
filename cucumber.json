@@ -1,0 +1,17 @@
+{
+  "default": {
+    "paths": [      
+      "src/test/features/ScenarioOutline.feature"
+    
+],
+
+    
+    "require": [
+      "src/test/steps/*.ts"
+    ],
+    "requireModule": [
+      "ts-node/register"
+    ],
+    "dryRun": false
+  }
+}
